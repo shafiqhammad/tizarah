@@ -1,0 +1,124 @@
+/* =========================================
+for max-width 991px 
+============================================ */
+@media (max-width: 991px) {
+	.service-item {
+		display: block;
+		text-align: center;
+	}
+	.testimonial-active i.slick-arrow {
+		left: -6px;
+	}
+	.testimonial-active i.fa-long-arrow-alt-right.slick-arrow{
+		right: -6px;
+	}
+}
+/* =========================================
+for max-width 767px 
+============================================ */
+@media (max-width: 767px) {
+	.theme-btn {
+		padding: 10px 25px;
+	}
+	.testimonial-img {
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.testimonial-img img {
+		margin: 0 auto 20px;
+	}
+	.testimonial-text::after {
+		left: 50%;
+		top: -4px;
+		transform: rotate(45deg) translateX(-50%);
+		border: 1px solid #dfdfdf;
+		border-right: none;
+		border-bottom: none;
+	}
+	.team-overlay {
+		bottom: -85%;
+	}
+	.contact-form {
+		text-align: center;
+	}
+	.subs-form input {
+		padding: 10px 20px;
+	}
+	.subs-form button {
+		padding: 10px 25px;
+	}
+	.slider-polygon , .banner-polygon {
+		-webkit-clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+		clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+	}
+	.footer-polygon {
+		-webkit-clip-path: polygon(100% 5%, 100% 100%, 0 100%, 0 0);
+		clip-path: polygon(100% 5%, 100% 100%, 0 100%, 0 0);
+	}
+}
+/* =========================================
+for max-width 575px 
+============================================ */
+@media (max-width: 575px) {
+	.slider-text h2 {
+		font-size: 50px;
+	}
+	.section-title h2 , .banner-content h2 {
+		font-size: 40px;
+	}
+	.testimonial-content {
+		padding: 30px 20px;
+	}
+	.testimonial-text {
+		padding: 10px 10px 0px;
+	}
+	.footer-polygon-2 {
+		-webkit-clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 50% 100%, 0 100%, 0 5%);
+		clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 50% 100%, 0 100%, 0 5%);
+	}
+}
+/* =========================================
+for max-width 450px 
+============================================ */
+@media (max-width: 450px) {
+	.slider-text h2 {
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 15px;
+	}
+	.slider-text p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.section-title h2 , .banner-content h2 {
+		font-size: 30px;
+	}
+	.service-item , .contact-item {
+		display: block;
+		text-align: center;
+	}
+	.team-overlay {
+		bottom: -80%;
+	}
+	.banner-content {
+		padding: 100px 0px;
+	}
+	.comment-view .media {
+		display: block;
+	}
+	.comment-view .media-body {
+		flex: content;
+	}
+}
+/* =========================================
+for max-width 320px 
+============================================ */
+@media (max-width: 320px) {
+	.slider-text h2 {
+		font-size: 28px;
+	}
+	.section-title h2 {
+		font-size: 28px;
+	}
+}
