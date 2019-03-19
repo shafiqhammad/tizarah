@@ -1,5 +1,5 @@
 /*
-  Theme Name: evast - Responsive html5 Template
+  Theme Name: TIZARAH - Responsive html5 Bootstrap Template
   Author: Shafiq Hammad
   Author URL: https://themeforest.net/user/shafiqhammad
   Support: shafiqhammad5@gmail.com
